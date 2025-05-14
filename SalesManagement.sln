@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesManagement.WebAPI", "SalesManagement.WebAPI\SalesManagement.WebAPI.csproj", "{AD677603-C2FB-4082-88BB-9CA1F453D789}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesManagement.Domain", "SalesManagement.Domain\SalesManagement.Domain.csproj", "{BD3C5079-FF4C-4911-B848-E8D2284474FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesManagement.Infrastructure", "SalesManagement.Infrastructure\SalesManagement.Infrastructure.csproj", "{AB242E86-A74C-46D5-A7A7-BDA178E92C46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesManagement.Application", "SalesManagement.Application\SalesManagement.Application.csproj", "{B7CBF21C-5AC9-433E-99A6-710384EF4116}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		..\frontend\index.html = ..\frontend\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{734DC12C-99C1-40C9-8814-0CAB0DC7F2CB}"
+	ProjectSection(SolutionItems) = preProject
+		..\frontend\js\api.js = ..\frontend\js\api.js
+		..\frontend\js\customer.js = ..\frontend\js\customer.js
+		..\frontend\js\reports.js = ..\frontend\js\reports.js
+		..\frontend\js\sales.js = ..\frontend\js\sales.js
+		..\frontend\js\ui.js = ..\frontend\js\ui.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD677603-C2FB-4082-88BB-9CA1F453D789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD677603-C2FB-4082-88BB-9CA1F453D789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD677603-C2FB-4082-88BB-9CA1F453D789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD677603-C2FB-4082-88BB-9CA1F453D789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD3C5079-FF4C-4911-B848-E8D2284474FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3C5079-FF4C-4911-B848-E8D2284474FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3C5079-FF4C-4911-B848-E8D2284474FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3C5079-FF4C-4911-B848-E8D2284474FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB242E86-A74C-46D5-A7A7-BDA178E92C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB242E86-A74C-46D5-A7A7-BDA178E92C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB242E86-A74C-46D5-A7A7-BDA178E92C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB242E86-A74C-46D5-A7A7-BDA178E92C46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7CBF21C-5AC9-433E-99A6-710384EF4116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7CBF21C-5AC9-433E-99A6-710384EF4116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7CBF21C-5AC9-433E-99A6-710384EF4116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7CBF21C-5AC9-433E-99A6-710384EF4116}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{734DC12C-99C1-40C9-8814-0CAB0DC7F2CB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFD0278D-5172-4EEA-B8C9-076686A3D2BC}
+	EndGlobalSection
+EndGlobal
