@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sales System</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container py-4">
+  <h1 class="text-center mb-4">Sales Management System</h1>
+  
+  <ul class="nav nav-tabs" id="mainTabs">
+    <li class="nav-item">
+      <a class="nav-link active" href="#customers" data-bs-toggle="tab">Customers</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#sales" data-bs-toggle="tab">Sales</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#reports" data-bs-toggle="tab">Reports</a>
+    </li>
+  </ul>
+
+  <div class="tab-content mt-4">
+    <div class="tab-pane fade show active" id="customers">
+      <div id="customerFormContainer"></div>
+      <div id="customerListContainer"></div>
+    </div>
+    <div class="tab-pane fade" id="sales">
+      <div id="salesFormContainer"></div>
+      <div id="salesListContainer"></div>
+    </div>
+    <div class="tab-pane fade" id="reports">
+      <div id="reportContainer"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="js/api.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/customer.js"></script>
+<script src="js/sales.js"></script>
+<script src="js/reports.js"></script>
+</body>
+</html>
